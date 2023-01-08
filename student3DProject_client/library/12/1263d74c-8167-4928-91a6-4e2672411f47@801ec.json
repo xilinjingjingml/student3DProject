@@ -68,5 +68,6 @@
       "z": 0.5
     }
   },
-  "_hash": 2864929873
+  "_hash": 2864929873,
+  "_allowDataAccess": true
 }

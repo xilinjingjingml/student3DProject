@@ -1,5 +1,4 @@
 {
-  "__version__": "1.0.0",
   "gizmos-infos": {
     "is2D": false,
     "is3DIcon": false,
@@ -14,6 +13,19 @@
     "isIconGizmo3D": false,
     "iconGizmoSize": 2,
     "isGridVisible": true
+  },
+  "float-window": {
+    "position": {
+      "cc": {
+        "Camera": {
+          "dock": false,
+          "top": null,
+          "bottom": 10,
+          "left": null,
+          "right": 10
+        }
+      }
+    }
   },
   "camera": {
     "fov": 45,
@@ -35,9 +47,9 @@
   "camera-infos": {
     "f46876e4-e81b-4931-b493-6d367be385e7": {
       "position": {
-        "x": 50,
-        "y": 50,
-        "z": 50
+        "x": 10.08630514233802,
+        "y": 10.086305142338023,
+        "z": 10.086305142338047
       },
       "rotation": {
         "x": -0.27984814233312133,

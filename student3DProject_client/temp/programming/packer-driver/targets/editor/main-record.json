@@ -1,8 +1,8 @@
 {
   "modules": {
     "cce:/internal/x/cc": {
-      "mTimestamp": 37470.097599983215,
-      "chunkId": "06905a76530cf57ee019d9d8bcfb507c2d037fd3",
+      "mTimestamp": 15910.723899960518,
+      "chunkId": "ca4374a3008ca85000d465787e739a302e4e4ac6",
       "imports": [
         {
           "value": "cce:/internal/x/cc-fu/base",
@@ -215,7 +215,7 @@
           }
         },
         {
-          "value": "cce:/internal/x/cc-fu/audio",
+          "value": "cce:/internal/x/cc-fu/geometry-renderer",
           "resolved": "__unresolved_15",
           "loc": {
             "start": {
@@ -224,12 +224,12 @@
             },
             "end": {
               "line": 16,
-              "column": 43
+              "column": 55
             }
           }
         },
         {
-          "value": "cce:/internal/x/cc-fu/video",
+          "value": "cce:/internal/x/cc-fu/audio",
           "resolved": "__unresolved_16",
           "loc": {
             "start": {
@@ -243,7 +243,7 @@
           }
         },
         {
-          "value": "cce:/internal/x/cc-fu/terrain",
+          "value": "cce:/internal/x/cc-fu/video",
           "resolved": "__unresolved_17",
           "loc": {
             "start": {
@@ -252,12 +252,12 @@
             },
             "end": {
               "line": 18,
-              "column": 45
+              "column": 43
             }
           }
         },
         {
-          "value": "cce:/internal/x/cc-fu/webview",
+          "value": "cce:/internal/x/cc-fu/terrain",
           "resolved": "__unresolved_18",
           "loc": {
             "start": {
@@ -271,7 +271,7 @@
           }
         },
         {
-          "value": "cce:/internal/x/cc-fu/tween",
+          "value": "cce:/internal/x/cc-fu/webview",
           "resolved": "__unresolved_19",
           "loc": {
             "start": {
@@ -280,12 +280,12 @@
             },
             "end": {
               "line": 20,
-              "column": 43
+              "column": 45
             }
           }
         },
         {
-          "value": "cce:/internal/x/cc-fu/tiled-map",
+          "value": "cce:/internal/x/cc-fu/tween",
           "resolved": "__unresolved_20",
           "loc": {
             "start": {
@@ -294,12 +294,12 @@
             },
             "end": {
               "line": 21,
-              "column": 47
+              "column": 43
             }
           }
         },
         {
-          "value": "cce:/internal/x/cc-fu/spine",
+          "value": "cce:/internal/x/cc-fu/tiled-map",
           "resolved": "__unresolved_21",
           "loc": {
             "start": {
@@ -308,12 +308,12 @@
             },
             "end": {
               "line": 22,
-              "column": 43
+              "column": 47
             }
           }
         },
         {
-          "value": "cce:/internal/x/cc-fu/dragon-bones",
+          "value": "cce:/internal/x/cc-fu/spine",
           "resolved": "__unresolved_22",
           "loc": {
             "start": {
@@ -322,7 +322,35 @@
             },
             "end": {
               "line": 23,
+              "column": 43
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/dragon-bones",
+          "resolved": "__unresolved_23",
+          "loc": {
+            "start": {
+              "line": 24,
+              "column": 14
+            },
+            "end": {
+              "line": 24,
               "column": 50
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/custom-pipeline",
+          "resolved": "__unresolved_24",
+          "loc": {
+            "start": {
+              "line": 25,
+              "column": 14
+            },
+            "end": {
+              "line": 25,
+              "column": 53
             }
           }
         }
@@ -437,6 +465,13 @@
         {
           "resolved": {
             "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/geometry-renderer"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
             "specifierOrURL": "cce:/internal/x/cc-fu/audio"
           },
           "messages": []
@@ -489,11 +524,18 @@
             "specifierOrURL": "cce:/internal/x/cc-fu/dragon-bones"
           },
           "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/custom-pipeline"
+          },
+          "messages": []
         }
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 37469.26320004463,
+      "mTimestamp": 15910.708799958229,
       "chunkId": "051e512bc19ae273b1b08b612b292a731729aa05",
       "imports": [],
       "type": "esm",

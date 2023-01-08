@@ -1,48 +1,125 @@
-declare module "cc/env" {
-    export const EXPORT_TO_GLOBAL: boolean;
+declare module 'cc/env'{
+	/**
+	 * Running in Web platform
+	 */
+	export const HTML5: boolean;
 
-    export const BUILD: boolean;
+	/**
+	 * Running in native platform (mobile app, desktop app, or simulator).
+	 */
+	export const NATIVE: boolean;
 
-    export const TEST: boolean;
+	/**
+	 * Running in the Wechat's mini game.
+	 */
+	export const WECHAT: boolean;
 
-    export const EDITOR: boolean;
+	/**
+	 * Running in the baidu's mini game.
+	 */
+	export const BAIDU: boolean;
 
-    export const PREVIEW: boolean;
+	/**
+	 * Running in the xiaomi's quick game.
+	 */
+	export const XIAOMI: boolean;
 
-    export const DEV: boolean;
+	/**
+	 * Running in the alipay's mini game.
+	 */
+	export const ALIPAY: boolean;
 
-    export const DEBUG: boolean;
+	/**
+	 * Running in the ByteDance's mini game.
+	 */
+	export const BYTEDANCE: boolean;
 
-    export const JSB: boolean;
+	/**
+	 * Running in the oppo's quick game.
+	 */
+	export const OPPO: boolean;
 
-    export const NATIVE: boolean;
+	/**
+	 * Running in the vivo's quick game.
+	 */
+	export const VIVO: boolean;
 
-    export const HTML5: boolean;
+	/**
+	 * Running in the huawei's quick game.
+	 */
+	export const HUAWEI: boolean;
 
-    export const WECHAT: boolean;
+	/**
+	 * Running in the cocosplay.
+	 */
+	export const COCOSPLAY: boolean;
 
-    export const MINIGAME: boolean;
+	/**
+	 * Running in the qtt's quick game.
+	 */
+	export const QTT: boolean;
 
-    export const RUNTIME_BASED: boolean;
+	/**
+	 * Running in the linksure's quick game.
+	 */
+	export const LINKSURE: boolean;
 
-    export const ALIPAY: boolean;
+	/**
+	 * Running in the editor.
+	 */
+	export const EDITOR: boolean;
 
-    export const XIAOMI: boolean;
+	/**
+	 * Preview in browser or simulator.
+	 */
+	export const PREVIEW: boolean;
 
-    export const BYTEDANCE: boolean;
+	/**
+	 * Running in published project.
+	 */
+	export const BUILD: boolean;
 
-    export const BAIDU: boolean;
+	/**
+	 * Running in the engine's unit test.
+	 */
+	export const TEST: boolean;
 
-    export const COCOSPLAY: boolean;
+	/**
+	 * Running debug mode.
+	 */
+	export const DEBUG: boolean;
 
-    export const HUAWEI: boolean;
+	/**
+	 * Running in the editor or preview.
+	 */
+	export const DEV: boolean;
 
-    export const OPPO: boolean;
+	/**
+	 * Running in mini game.
+	 */
+	export const MINIGAME: boolean;
 
-    export const VIVO: boolean;
+	/**
+	 * Running in runtime based environment.
+	 */
+	export const RUNTIME_BASED: boolean;
 
-    export const SUPPORT_JIT: boolean;
+	/**
+	 * Support JIT.
+	 */
+	export const SUPPORT_JIT: boolean;
 
-    export const SERVER_MODE: boolean;
+	/**
+	 * Running in environment where using JSB as the JavaScript interface binding scheme.
+	 */
+	export const JSB: boolean;
+
+	/**
+	 * The network access mode.
+	 * - 0 Client
+	 * - 1 ListenServer
+	 * - 2 HostServer
+	 */
+	export const NET_MODE: number;
 
 }

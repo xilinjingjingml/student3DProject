@@ -175,13 +175,13 @@
     "__prefab": {
       "__id__": 5
     },
-    "_visFlags": 0,
     "_materials": [
       {
         "__uuid__": "1263d74c-8167-4928-91a6-4e2672411f47@8d883",
         "__expectedType__": "cc.Material"
       }
     ],
+    "_visFlags": 0,
     "lightmapSettings": {
       "__id__": 6
     },
@@ -282,13 +282,13 @@
     "__prefab": {
       "__id__": 10
     },
-    "_visFlags": 0,
     "_materials": [
       {
         "__uuid__": "1263d74c-8167-4928-91a6-4e2672411f47@8d883",
         "__expectedType__": "cc.Material"
       }
     ],
+    "_visFlags": 0,
     "lightmapSettings": {
       "__id__": 11
     },
@@ -389,13 +389,13 @@
     "__prefab": {
       "__id__": 15
     },
-    "_visFlags": 0,
     "_materials": [
       {
         "__uuid__": "1263d74c-8167-4928-91a6-4e2672411f47@8d883",
         "__expectedType__": "cc.Material"
       }
     ],
+    "_visFlags": 0,
     "lightmapSettings": {
       "__id__": 16
     },
@@ -496,13 +496,13 @@
     "__prefab": {
       "__id__": 20
     },
-    "_visFlags": 0,
     "_materials": [
       {
         "__uuid__": "1263d74c-8167-4928-91a6-4e2672411f47@8d883",
         "__expectedType__": "cc.Material"
       }
     ],
+    "_visFlags": 0,
     "lightmapSettings": {
       "__id__": 21
     },
@@ -603,13 +603,13 @@
     "__prefab": {
       "__id__": 25
     },
-    "_visFlags": 0,
     "_materials": [
       {
         "__uuid__": "1263d74c-8167-4928-91a6-4e2672411f47@8d883",
         "__expectedType__": "cc.Material"
       }
     ],
+    "_visFlags": 0,
     "lightmapSettings": {
       "__id__": 26
     },
@@ -710,13 +710,13 @@
     "__prefab": {
       "__id__": 30
     },
-    "_visFlags": 0,
     "_materials": [
       {
         "__uuid__": "1263d74c-8167-4928-91a6-4e2672411f47@8d883",
         "__expectedType__": "cc.Material"
       }
     ],
+    "_visFlags": 0,
     "lightmapSettings": {
       "__id__": 31
     },
@@ -817,13 +817,13 @@
     "__prefab": {
       "__id__": 35
     },
-    "_visFlags": 0,
     "_materials": [
       {
         "__uuid__": "1263d74c-8167-4928-91a6-4e2672411f47@8d883",
         "__expectedType__": "cc.Material"
       }
     ],
+    "_visFlags": 0,
     "lightmapSettings": {
       "__id__": 36
     },
@@ -924,13 +924,13 @@
     "__prefab": {
       "__id__": 40
     },
-    "_visFlags": 0,
     "_materials": [
       {
         "__uuid__": "1263d74c-8167-4928-91a6-4e2672411f47@8d883",
         "__expectedType__": "cc.Material"
       }
     ],
+    "_visFlags": 0,
     "lightmapSettings": {
       "__id__": 41
     },
